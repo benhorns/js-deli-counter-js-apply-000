@@ -6,6 +6,9 @@ return(`Welcome, ${name}. You are number ${placeInLine} in line.`)
 
 function nowServing (katzDeliLine) {
 var currentLine = katzDeliLine.length;
-  if()
+  if(currentLine === 0) {
+    return 'There is nobody waiting to be served!'
+  } else {
   return `${katzDeliLine[0]}`
+  }
 }
