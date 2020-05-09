@@ -18,12 +18,14 @@ katzDeliLine.shift()
 function currentLine (katzDeliLine) {
   const length = katzDeliLine.length
   let lineStr = ''
-  if(length === 0 ) {
-    return 'The line is currently empty.'
-  } else {
-    for(let i = 0; i < length; i++) {
-      lineStr += `${i+1}. ${katzDeliLine[i]}, `
-    }
-  }
+
+  length === 0 ? 'The line is currently empty.' : lineStr += katzDeliLine.forEach(function(item,index) {index+ ':' + item};)
+  // if(length === 0 ) {
+  //   return 'The line is currently empty.'
+  // } else {
+  //   for(let i = 0; i < length; i++) {
+  //     lineStr += `${i+1}. ${katzDeliLine[i]}, `
+  //   }
+  // }
   return lineStr.substring(0, lineStr.length-1)
 }
