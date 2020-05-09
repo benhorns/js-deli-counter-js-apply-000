@@ -5,7 +5,7 @@ return(`Welcome, ${name}. You are number ${placeInLine} in line.`)
 }
 
 function nowServing (katzDeliLine) {
-return ketzDeliLine.length === 0 ? 'There is nobody waiting to be served!' : `Currently serving ${katzDeliLine.shift()}.`
+return katzDeliLine.length === 0 ? 'There is nobody waiting to be served!' : `Currently serving ${katzDeliLine.shift()}.`
 }
 
 function currentLine (katzDeliLine) {
