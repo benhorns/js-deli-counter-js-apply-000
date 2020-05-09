@@ -17,4 +17,7 @@ katzDeliLine.shift()
 
 function currentLine (katzDeliLine) {
   const length = katzDeliLine.length
+  if(length === 0 ) {
+    return 'The line is currently empty.'
+  }
 }
