@@ -20,7 +20,7 @@ function currentLine (katzDeliLine) {
   let lineStr = '';
 
   // length === 0 ? 'The line is currently empty.' : lineStr += katzDeliLine.forEach(function(item,index) {index+ ':' + item})
-  return length === 0 ?  'The line is currently empty.' :  `this`
+  return length === 0 ?  'The line is currently empty.' :  `katzDeliLine.forEach((item,index) => lineStr += `${index+1}. ${item}, `)`
   // if(length === 0 ) {
   //   return 'The line is currently empty.'
   // } else {
