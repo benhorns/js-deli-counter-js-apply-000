@@ -16,8 +16,8 @@ katzDeliLine.shift()
 }
 
 function currentLine (katzDeliLine) {
-  const length = katzDeliLine.length
-  let lineStr = ''
+  const length = katzDeliLine.length;
+  let lineStr = '';
 
   // length === 0 ? 'The line is currently empty.' : lineStr += katzDeliLine.forEach(function(item,index) {index+ ':' + item})
 (length === 0) ? 'The line is currently empty.' : `this`
