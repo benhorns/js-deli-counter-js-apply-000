@@ -1,5 +1,4 @@
 function takeANumber(line, name) {
-const placeInLine = line.length + 1
 line.push(name)
 return(`Welcome, ${name}. You are number ${line.length+1} in line.`)
 }
