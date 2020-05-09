@@ -9,11 +9,6 @@ const length = katzDeliLine.length;
 const nowServing = katzDeliLine[0]
 katzDeliLine.shift()
 return length === 0 ? 'There is nobody waiting to be served!' : `Currently serving ${nowServing}.`
-  // if(length === 0) {
-  //   return 'There is nobody waiting to be served!'
-  // } else {
-  // return `Currently serving ${nowServing}.`
-  // }
 }
 
 function currentLine (katzDeliLine) {
