@@ -5,7 +5,7 @@ return(`Welcome, ${name}. You are number ${placeInLine} in line.`)
 }
 
 function nowServing (katzDeliLine) {
-const currentLine = katzDeliLine.length;
+const length = katzDeliLine.length;
 const nowServing = katzDeliLine[0]
 katzDeliLine.shift()
   if(currentLine === 0) {
