@@ -23,7 +23,7 @@ function currentLine (katzDeliLine) {
   if(length === 0 ) {
     return 'The line is currently empty.'
   } else {
-  katzDeliLine.forEach(function(item,index) {lineStr += `${index+1}. ${item},`})
+  katzDeliLine.forEach(function(item,index) {lineStr += `${index+1}. ${item}, `})
     }
 
   return lineStr.substring(0, lineStr.length-1)
