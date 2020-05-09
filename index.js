@@ -26,5 +26,5 @@ function currentLine (katzDeliLine) {
   katzDeliLine.forEach(function(item,index) {lineStr += `${index+1}. ${item}, `})
     }
 
-  return lineStr.substring(0, lineStr.length-2)
+  return `The line is currently: ${lineStr.substring(0, lineStr.length-2)}`
 }
