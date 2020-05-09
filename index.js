@@ -25,5 +25,5 @@ function currentLine (katzDeliLine) {
       lineStr += `${i+1}. ${katzDeliLine[i]}, `
     }
   }
-  return lineStr
+  return lineStr.subString(0, lineStr.length-1)
 }
